@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shopsphere-config
+  namespace: shopsphere
+data:
+  POSTGRES_HOST: "<CLOUD_SQL_PRIVATE_IP>"
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: "ecommerce"
+  PRODUCT_SERVICE_URL: "http://product-service:8081"
+  USER_SERVICE_URL: "http://user-service:8082"
+  ORDER_SERVICE_URL: "http://order-service:8083"
+  PAYMENT_SERVICE_URL: "http://payment-service:8084"
