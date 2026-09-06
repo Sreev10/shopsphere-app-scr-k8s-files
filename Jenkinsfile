@@ -6,11 +6,11 @@ pipeline {
         skipDefaultCheckout(true)
     }
     environment {
-        PROJECT_ID = 'gke-project-1-500610'
+        PROJECT_ID = 'gke-project-ID'
         REGION = 'asia-south1'
-        GKE_CLUSTER = 'shopsphere-dev-gke'
-        ARTIFACT_REPOSITORY = 'dev-shopsphere'
-        REGISTRY = 'asia-south1-docker.pkg.dev/gke-project-1-500610/dev-shopsphere'
+        GKE_CLUSTER = 'Cluster-name'
+        ARTIFACT_REPOSITORY = 'Repo-name'
+        REGISTRY = 'Registry name in cloud'
         NAMESPACE = 'shopspahere'
         DB_NAME = 'ecommerce'
         DB_HOST = '<CLOUD_SQL_PRIVATE_IP>'
