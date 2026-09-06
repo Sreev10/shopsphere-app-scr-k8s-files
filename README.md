@@ -1,7 +1,7 @@
 
 ---
 
-### README for Project 2: ShopSphere Microservices & Kubernetes Deployment
+### README: ShopSphere Microservices & Kubernetes Deployment
 
 # ShopSphere Microservices Platform
 
